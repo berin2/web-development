@@ -1,0 +1,24 @@
+<app-app-container>
+  <section class="row bg-secondary rounded">
+    <section class="col text-white d-flex flex-row justify-content-center align-items-center">
+      <h1 class="text-white">Contact Us</h1>
+    </section>
+    <section class="contact-form col-md-8 col-12 bg-white d-flex flex-column justify-content-around align-items-center">
+      <section class="form-group mx-1">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" [(ngModel)]="name" placeholder="Your name"/>
+      </section>
+      <section class="form-group mx-1">
+        <label class="form-label">Email</label>
+        <input type="text" class="form-control" [(ngModel)]="email" placeholder="@youremail"/>
+      </section>
+      <section class="form-group mx-1">
+        <label class="form-label">Message</label>
+        <input type="text" class="form-control" [(ngModel)]="name" placeholder="Your name"/>
+      </section>
+      <section class="form-group">
+        <input type="button" class="btn btn-outline-success" value="Submit"/>
+      </section>
+    </section>
+  </section>
+</app-app-container>

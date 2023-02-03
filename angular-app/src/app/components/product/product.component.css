@@ -1,0 +1,20 @@
+.product{
+  height: 400px !important;
+  width: 400px !important;
+}
+
+.product-tile{
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.product-description {
+  height: 100px;
+}
+
+.product-image {
+  height: 400px;
+  width: auto;
+}

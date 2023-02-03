@@ -1,0 +1,12 @@
+<app-app-container>
+  <section class="row w-100">
+    <section class="col-12">
+      <h1>Welcome to our store.</h1>
+      <p> We are offering a discount until 03/14/2022</p>
+      <p class="text-success">Enter coupon code Cheap2GO at checkout.</p>
+    </section>
+  </section>
+  <section class="row w-100">
+      <app-product class="col-md-6 col-12" *ngFor="let item of this.items"></app-product>
+  </section>
+</app-app-container>

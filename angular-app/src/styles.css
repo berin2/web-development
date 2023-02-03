@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: lighter;
+}
+
+.app-row{
+  min-height: 100vh;
+}
+body {
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(222,212,208,1) 100%);
+}
+

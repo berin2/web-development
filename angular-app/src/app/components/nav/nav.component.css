@@ -1,0 +1,14 @@
+.app-navbar {
+  height: 60px;
+}
+
+.app-link {
+  color: black !important;
+  border-radius: 3px;
+  text-decoration: none !important;
+}
+
+.app-link:hover {
+  background-color: gray;
+  color: white !important;
+}
